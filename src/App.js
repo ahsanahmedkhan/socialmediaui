@@ -7,23 +7,23 @@ import './App.css';
 function App(){
     
     return(
-        <div className="center">
+        <div className="    center">
         <div>    
-        <h1>3brother`s Enterprise</h1>
+        <h1 color="primary">3brother`s Enterprise</h1>
         </div>
         <div>
-            <Button
-             variant="text"
-             color="secondary" startIcon={<Person/>}/>
-             <Button
-             variant="text"
-             color="secondary" startIcon={<InfoRounded/>}/>
-             <Button
-             variant="text"
-             color="secondary" startIcon={<Person/>}/>
-             <Button
-             variant="text"
-             color="secondary" startIcon={<Info/>}/>
+            <Button className="button"
+             variant="contained"
+             color="primary" startIcon={<Person/>}/>
+             <Button className="button"
+             variant="outlined"
+             color="primary" startIcon={<InfoRounded/>}/>
+             <Button className="button"
+             variant="outlined"
+             color="primary" startIcon={<Person/>}/>
+             <Button className="button"
+             variant="outlined"
+             color="primary" startIcon={<Info/>}/>
         </div>
         </div>
     );

@@ -3,9 +3,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 10px;
+  margin: 3px 2px;
+
+  background-color: rgb(161, 158, 158);
+  opacity: 0.7;
+
   
 }
-h1{
-  color: brown;
-}
+  .button{
+    margin-left: 10px;
+  }
