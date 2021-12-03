@@ -4,13 +4,13 @@ import React from 'react';
 
 import './App.css';
 
-function App(){
+function App(){ 
     
     return(
         
         <div className="center">
                 <div>    
-                    <h1 color="primary">3brother`s Enterprise</h1>
+                    <h1 backgroundColor="white">3brother`s Enterprise</h1>
                 </div>
             <div>
                    
