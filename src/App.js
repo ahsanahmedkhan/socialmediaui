@@ -12,9 +12,7 @@ function App(){
                 <div>    
                     <h1 backgroundColor="white">3brother`s Enterprise</h1>
                 </div>
-            <div>
-                   
-            </div>
+            
             
         </div>
     );
